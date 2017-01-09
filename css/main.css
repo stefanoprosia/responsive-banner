@@ -9,6 +9,11 @@ html {
   border-color: #97a49b;
 }
 
+.btn a:hover {
+  background-color: #496662;
+  color: #efefef;
+}
+
 
 @media only screen and (min-width: 42em) {
 
@@ -19,14 +24,13 @@ img {
 .banner {
   position: relative;
   width: 100%;
-  max-width: 50em;
   max-height: 500px;
   overflow: hidden;
 }
 
 .banner-content {
   position: absolute;
-  max-width: 25em;
+  max-width: 50em;
   bottom: 0;
   left: 0;
 
