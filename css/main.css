@@ -9,8 +9,7 @@ html {
   border-color: #97a49b;
 }
 
-.btn a:hover {
-  background-color: #496662;
+.btn.hover {
   color: #efefef;
 }
 
@@ -18,7 +17,7 @@ html {
 @media only screen and (min-width: 42em) {
 
 img {
-  background-image: linear-gradient(rgba(73, 85, 98, 0));
+  background-image: linear-gradient(to rgba(73, 85, 98, 0));
 }
 
 .banner {
