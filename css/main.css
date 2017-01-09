@@ -16,25 +16,27 @@ html {
 
 @media only screen and (min-width: 42em) {
 
-.banner {
-  position: relative;
-  width: 100%;
-  max-height: 500px;
-  overflow: hidden;
-}
+  .banner {
+    position: relative;
+    width: 100%;
+    max-height: 500px;
+    overflow: hidden;
+  }
 
-.banner-content {
-  position: absolute;
-  max-width: 50em;
-  width: 100%;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  background-image: linear-gradient(rgba(73, 85, 98, 0));
-}
+  .banner-content {
+    position: absolute;
+    max-width: 50em;
+    width: 100%;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-image: -webkit-linear-gradient(rgba(73, 85, 98, 0), rgba(73, 85, 98, .8));
+    background-image: -o-linear-gradient(rgba(73, 85, 98, 0), rgba(73, 85, 98, .8));
+    background-image: linear-gradient(rgba(73, 85, 98, 0), rgba(73, 85, 98, .8));
+  }
 
-.parahraph {
-  max-width: 25em;
-}
+  .parahraph {
+    max-width: 25em;
+  }
 
 }
