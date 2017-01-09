@@ -8,3 +8,19 @@ html {
   background-color: #495562;
   border-color: #97a49b;
 }
+
+
+@media only screen and (min-width: 42em) {
+
+img {
+  background-image: linear-gradient(rgba(73,85,98,0));
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  
+
+}
+
+}
