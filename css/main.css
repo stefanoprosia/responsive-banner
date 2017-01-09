@@ -19,8 +19,8 @@ img {
 .banner {
   position: relative;
   width: 100%;
-  
-
+  max-height: 24em;
+  overflow: hidden;
 }
 
 }
