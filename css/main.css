@@ -33,7 +33,10 @@ img {
   max-width: 50em;
   bottom: 0;
   left: 0;
+}
 
+.parahraph {
+  max-width: 25em;
 }
 
 }
